@@ -7,10 +7,11 @@
 
     // Website colors
     :root {
-        --primary: #FFBA19;
+        --primary: #f01e1e;
         --primaryShade: #ffd675;
         --primaryDark: #805d0d;
         --bodyText: #1a1a1a;
+        --navText: rgb(214, 42, 42);
     }
 
     // Grab your fonts to locally host from https://google-webfonts-helper.herokuapp.com/fonts
@@ -192,9 +193,17 @@
 
         // Logo
         .logo {
-            display: inline-block;
+            //display: inline-block;
             height: 30/16em ;
             width: auto;
+            text-decoration: none;
+            color: var(--navText);
+            font-weight: bold;
+            font-size: larger;
+            align-content: center;
+            text-shadow:2px 2px rgba(0, 0, 0, 0.404);
+            
+            
 
             img {
                 width: auto;
@@ -492,6 +501,12 @@
             margin-right: auto;
             height: 60/16em;
             width: auto;
+            text-decoration: none;
+            color: var(--navText);
+            font-weight: bold;
+            font-size: larger;
+            align-content: center;
+            text-shadow:2px 2px rgba(0, 0, 0, 0.404);
 
             img {
                 width: auto;
@@ -579,101 +594,7 @@
     }
 }
 
-// ---------------------------------------------------------
 
-/* Dark Mode Mobile */
-@media only screen and (max-width: 1023px) {
-    body.dark-mode {
-        #navigation {
-            .background-color-div {
-                background-color: var(--dark);
-            }
-
-            .hamburger-menu {
-                &.clicked {
-                    span {
-                        background-color: var(--dark);
-                    }
-                }
-                span {
-                    background-color: #fff;
-
-                    &:before, &:after {
-                        background-color: #fff;
-                    }
-                }
-            }
-
-            .logo {
-                .light {
-                    display: block;
-                }
-
-                .dark {
-                    display: none !important;
-                }
-            }
-
-            #navbar-menu {
-                background-color: var(--medium);
-
-                ul {
-                    li {
-                        a {
-                            color: #fff;
-                            &:before {
-                                background: var(--accent);
-                            }
-
-                            &.active {
-                                color: var(--primary);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-/* Dark Mode Desktop */
-@media only screen and (min-width: 1024px) {
-    body.dark-mode {
-        #navigation {
-            .background-color-div {
-                background-color: var(--dark);
-            }
-
-            .logo {
-                .light {
-                    display: block;
-                }
-
-                .dark {
-                    display: none !important;
-                }
-            }
-
-            #navbar-menu {
-                ul {
-                    li {
-                        a {
-                            color: #fff;
-                            &:before {
-                                background: var(--accent);
-                            }
-
-                            &.active {
-                                color: var(--primary);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        
-    }
-}
 
 /*-- -------------------------- -->
 <---   Interior Page Header     -->

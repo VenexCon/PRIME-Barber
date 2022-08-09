@@ -15,19 +15,19 @@
   #sidebyside .content {
     order: 2;
     margin: auto;
-    margin-top: 75/16em;
-    max-width: 611/16em;
+    margin-top: 4.6875em;
+    max-width: 38.1875em;
   }
   #sidebyside .content h2 {
-    font-size: 48/16em;
-    margin-bottom: 42/48em;
+    font-size: 3em;
+    margin-bottom: 0.875em;
   }
   #sidebyside .content p {
-    margin-bottom: 20/18em;
+    margin-bottom: 1.11111111em;
   }
   #sidebyside .content ul {
-    padding-left: 20/16em;
-    margin-bottom: 20/16em;
+    padding-left: 1.25em;
+    margin-bottom: 1.25em;
   }
   #sidebyside .content ul li {
     list-style: none;
@@ -36,18 +36,18 @@
     align-items: flex-start;
   }
   #sidebyside .content ul li img {
-    margin-right: 10/16em;
-    margin-top: 4/18em;
+    margin-right: 0.625em;
+    margin-top: 0.22222222em;
   }
   #sidebyside .content .button-solid {
-    margin-top: 25/14em;
+    margin-top: 1.78571429em;
   }
   #sidebyside .image-box {
     display: block;
     position: relative;
     margin: auto;
-    width: 611/16em;
-    height: 861/16em;
+    width: 38.1875em;
+    height: 53.8125em;
     font-size: min(1.4vw, 1em);
   }
   #sidebyside .image-box:before {
@@ -58,22 +58,22 @@
     width: 100%;
     background: var(--primary);
     opacity: 1;
-    top: 40/16em;
-    left: -40/16em;
+    top: 2.5em;
+    left: -2.5em;
   }
   #sidebyside .image-box:after {
     content: '';
     position: absolute;
     display: block;
-    height: 516/16em;
-    width: 460/16em;
+    height: 32.25em;
+    width: 28.75em;
     background: url("/images/content-circles.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 1;
-    top: -226/16em;
-    right: -109/16em;
+    top: -14.125em;
+    right: -6.8125em;
     z-index: -1;
   }
   #sidebyside .image-box img {
@@ -88,16 +88,16 @@
 /* Inbetween */
 @media only screen and (min-width: 666px) {
   #sidebyside {
-    padding: 100/16em 0;
+    padding: 6.25em 0;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
   #sidebyside {
-    padding: 150/16em 0;
+    padding: 9.375em 0;
   }
   #sidebyside .container {
-    max-width: 1391/16em;
+    max-width: 86.9375em;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -108,7 +108,7 @@
   }
   #sidebyside .image-box {
     margin: 0;
-    margin-right: 170/16em;
+    margin-right: 10.625em;
   }
 }
 /*-- -------------------------- -->
@@ -128,19 +128,19 @@
   #sidebyside-reverse .content {
     order: 2;
     margin: auto;
-    margin-top: 75/16em;
-    max-width: 611/16em;
+    margin-top: 4.6875em;
+    max-width: 38.1875em;
   }
   #sidebyside-reverse .content h2 {
-    font-size: 48/16em;
-    margin-bottom: 42/48em;
+    font-size: 3em;
+    margin-bottom: 0.875em;
   }
   #sidebyside-reverse .content p {
-    margin-bottom: 20/18em;
+    margin-bottom: 1.11111111em;
   }
   #sidebyside-reverse .content ul {
-    padding-left: 20/16em;
-    margin-bottom: 20/16em;
+    padding-left: 1.25em;
+    margin-bottom: 1.25em;
   }
   #sidebyside-reverse .content ul li {
     list-style: none;
@@ -149,18 +149,18 @@
     align-items: flex-start;
   }
   #sidebyside-reverse .content ul li img {
-    margin-right: 10/16em;
-    margin-top: 4/18em;
+    margin-right: 0.625em;
+    margin-top: 0.22222222em;
   }
   #sidebyside-reverse .content .button-solid {
-    margin-top: 25/14em;
+    margin-top: 1.78571429em;
   }
   #sidebyside-reverse .image-box {
     display: block;
     position: relative;
     margin: auto;
-    width: 611/16em;
-    height: 861/16em;
+    width: 38.1875em;
+    height: 53.8125em;
     font-size: min(1.4vw, 1em);
   }
   #sidebyside-reverse .image-box:before {
@@ -171,22 +171,22 @@
     width: 100%;
     background: var(--primary);
     opacity: 1;
-    top: 40/16em;
-    left: -40/16em;
+    top: 2.5em;
+    left: -2.5em;
   }
   #sidebyside-reverse .image-box:after {
     content: '';
     position: absolute;
     display: block;
-    height: 516/16em;
-    width: 460/16em;
+    height: 32.25em;
+    width: 28.75em;
     background: url("/images/content-circles.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 1;
-    top: -226/16em;
-    right: -109/16em;
+    top: -14.125em;
+    right: -6.8125em;
     z-index: -1;
   }
   #sidebyside-reverse .image-box img {
@@ -201,16 +201,16 @@
 /* Inbetween */
 @media only screen and (min-width: 666px) {
   #sidebyside-reverse {
-    padding: 100/16em 0;
+    padding: 6.25em 0;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
   #sidebyside-reverse {
-    padding: 150/16em 0;
+    padding: 9.375em 0;
   }
   #sidebyside-reverse .container {
-    max-width: 1391/16em;
+    max-width: 86.9375em;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -222,16 +222,16 @@
   }
   #sidebyside-reverse .image-box {
     margin: 0;
-    margin-left: 170/16em;
+    margin-left: 10.625em;
     order: 2;
   }
   #sidebyside-reverse .image-box:before {
     left: auto;
-    right: -40/16em;
+    right: -2.5em;
   }
   #sidebyside-reverse .image-box:after {
     right: auto;
-    left: -109/16em;
+    left: -6.8125em;
   }
 }
 /*-- -------------------------- -->
@@ -241,7 +241,7 @@
 @media only screen and (min-width: 0em) {
   #cta {
     position: relative;
-    padding: 50/16em 0;
+    padding: 3.125em 0;
   }
   #cta:before {
     content: '';
@@ -250,7 +250,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: 0.7;
+    opacity: .7;
     top: 0;
     left: 0;
     z-index: -1;
@@ -277,10 +277,10 @@
   #cta .title {
     font-weight: 900;
     font-size: min(9vw, 3em);
-    line-height: 58/48;
+    line-height: 1.20833333;
     color: #fff;
     position: relative;
-    margin-bottom: 36/48em;
+    margin-bottom: 0.75em;
     text-align: center;
   }
   #cta p {
@@ -288,22 +288,22 @@
     text-align: center;
     opacity: 1;
     margin: auto;
-    margin-bottom: 36/18em;
+    margin-bottom: 2em;
     width: 96%;
-    max-width: 598/18em;
+    max-width: 33.22222222em;
   }
 }
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #cta {
-    padding: 168/16em 0;
+    padding: 10.5em 0;
   }
 }
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   #cta {
     position: relative;
-    margin-top: 100/16em;
+    margin-top: 6.25em;
   }
   #cta:before {
     display: none;
@@ -312,8 +312,8 @@
     content: '';
     position: absolute;
     display: block;
-    height: 1108/16em;
-    width: 2000/16em;
+    height: 69.25em;
+    width: 125em;
     background: url("../images/cta-squares.svg");
     background-size: contain;
     background-position: center;
@@ -340,7 +340,7 @@
     height: 100%;
     width: 100%;
     background: #000;
-    opacity: 0.7;
+    opacity: .7;
     top: 0;
     left: 0;
     z-index: 1;
