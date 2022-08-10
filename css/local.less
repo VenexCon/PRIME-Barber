@@ -156,6 +156,11 @@
 
             p {
                 margin-bottom: 20/18em;
+
+                strong {
+                    color: var(--navText);
+                    text-shadow:2px 2px rgba(0, 0, 0, 0.404);
+                }
             }
 
             ul {
@@ -165,8 +170,21 @@
                 li {
                     list-style: none;
                     display: flex;
-                    justify-content: flex-start;
+                    justify-content: space-between;
                     align-items: flex-start;
+                    border-bottom: 2px dashed red;
+                    margin-bottom: 0.5rem;
+
+                    #li-cost{
+                        //border: 1px dashed blue;
+                        height: 100%;
+                        align-self: flex-end;
+                        //margin-right: 1rem;
+
+                        &:before {
+                            content: "\00A3" ;
+                        }
+                    }
 
                     img {
                         margin-right: 10/16em;

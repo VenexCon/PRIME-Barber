@@ -138,6 +138,10 @@
   #sidebyside-reverse .content p {
     margin-bottom: 1.11111111em;
   }
+  #sidebyside-reverse .content p strong {
+    color: var(--navText);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.404);
+  }
   #sidebyside-reverse .content ul {
     padding-left: 1.25em;
     margin-bottom: 1.25em;
@@ -145,8 +149,17 @@
   #sidebyside-reverse .content ul li {
     list-style: none;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
+    border-bottom: 2px dashed red;
+    margin-bottom: 0.5rem;
+  }
+  #sidebyside-reverse .content ul li #li-cost {
+    height: 100%;
+    align-self: flex-end;
+  }
+  #sidebyside-reverse .content ul li #li-cost:before {
+    content: "\00A3";
   }
   #sidebyside-reverse .content ul li img {
     margin-right: 0.625em;
