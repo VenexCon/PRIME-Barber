@@ -94,9 +94,13 @@
             background: #1a1a1a;
             padding: 45/16em 34/16em;
             width: 100%;
-            max-width: 300/16em;
+            //max-width: 300/16em;
+            max-width: fit-content;
             margin: auto;
             border-radius: 5/16em;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
 
             .heading {
                 color: #fff;
@@ -139,8 +143,8 @@
         .contact-right {
             max-width: 700/16em;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+            //justify-content: center;
+            //flex-wrap: wrap;
 
             .info-group {
                 width: 40%;
@@ -268,6 +272,7 @@
             .info-group {
                 margin-left: 0;
                 width: 100%;
+                flex-direction: column;
 
                 &:nth-of-type(3), &:last-of-type {
                     margin-bottom: 36/16em;
@@ -282,7 +287,13 @@
 
     #form {
         font-size: inherit;
+
+    
     }
+
+    
+
+
 }
 
 /* Dark Mode */
